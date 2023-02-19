@@ -57,7 +57,7 @@ body {
 
 /*----------------------- nav  ----------------------*/
 .navigation {
-    display: flex;
+    /*display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
@@ -67,7 +67,7 @@ body {
     width: 261px;
     height: 24px;
     left: 347px;
-    top: 24px;
+    top: 24px;*/
 }
 .contacts-item {
     font-weight: 500;
@@ -354,7 +354,7 @@ margin: 72px 24px 0;}
     border-radius: 4px;
     border: 1px solid #E7E9FC;
 
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -388,7 +388,7 @@ margin: 72px 24px 0;}
 .project {}
 
 .project-title{
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -396,7 +396,7 @@ margin: 72px 24px 0;}
 
 }
 .project-subtitle{
-    font-family: 'Roboto';
+    font-family: inherit;
     font-size: 20px;
     line-height: 1.5;
     color: var(--color-navy-blue);
