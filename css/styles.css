@@ -390,7 +390,22 @@ margin: 72px 24px 0;}
 
 .project {}
 
-.project-list {}
+.project-list {
+}
+.project-title{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--link-color);
+
+}
+.project-subtitle{
+    font-family: 'Roboto';
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--link-color);
+}
 
 .project-one {
     box-sizing: border-box;
