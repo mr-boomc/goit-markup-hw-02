@@ -122,10 +122,12 @@ body {
     gap: 10px;
     margin-top: 64px;
     position: absolute;
-    width: 169px;
-    height: 56px;
     left: 636px;
     top: 428px;*/
+
+
+        width: 169px;
+        height: 56px;
 
     background: var(--color-iris);
     border: 1px;
