@@ -72,18 +72,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.contacts-item:hover, .contacts-item:focus {
-    color: var(--hover-color);
-}
-.contacts-item  {
     font-style: normal;
-    color: #434455;
-}
-.contacts-item:hover, .contacts-item:focus  {
-    color: var(--hover-color);
-}
+    color: #434455;}
+    
 .mail {
    /* position: absolute;
     width: 153px;
