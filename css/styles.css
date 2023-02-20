@@ -18,7 +18,7 @@ body {
 }
 .link {
     text-decoration: none;
-    color: var(--color-navy-blue);
+   color: var(--color-navy-blue);
 }
 .link:hover, .link:focus {
     color: var(--hover-color);
@@ -30,9 +30,6 @@ body {
 
 .head {
     box-sizing: border-box;
-    position: absolute;
-    width: 1440px;
-    height: 72px;    
     border-bottom: 1px solid #E7E9FC;
     background-color: #FFFFFF
 
@@ -45,51 +42,40 @@ body {
     line-height: 1.3;
     color: var(--color-navy-blue);
 
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .logo-web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
     color: var(--color-iris);
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 
 /*----------------------- nav  ----------------------*/
 .navigation {
-    /*display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;*/
-}
-.contacts-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+    .contacts-item {
+    font-family: inherit;
     font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;}
     
 .mail {
-   /* position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
 }
 .tel {
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;*/
 }
 
 
@@ -101,15 +87,10 @@ body {
     height: 600px;
 }
 .hero-title {
-    /*position: absolute;
-    left: 472px;
-    top: 260px;*/
 
 
     width: 496px;
     height: 120px;
-    /*font-weight: 700;
-    line-height: 60px;*/
     font-size: 56px;
     text-align: center;
     letter-spacing: 0.02em;
@@ -117,14 +98,6 @@ body {
 }
 .hero-button {
 
-   /* display: flex;
-    flex-direction: row;
-    padding: 16px 32px;
-    gap: 10px;
-    margin-top: 64px;
-    position: absolute;
-    left: 636px;
-    top: 428px;*/
 
 
     width: 169px;
@@ -146,19 +119,9 @@ body {
 /*------------------- features studio ---------------------*/
 
 .features {
-   /* position: absolute;
-    width: 1128px;
-    height: 104px;
-    left: 156px;
-    top: 792px;
-    margin: 0 0 120px;*/
 }
 
 .features-list {
-   /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;*/
 }
 
 .features-item {
@@ -182,12 +145,6 @@ body {
 /*------------------- work studio ---------------------*/
 
 .work {
-    /*position: absolute;
-    width: 1128px;
-    height: 412px;
-    left: 156px;
-    top: 1016px;
-    margin-bottom: 120px;*/
 }
 
 .work-title {
@@ -200,10 +157,6 @@ body {
 }
 
 .work-list {
-   /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;*/
 }
 
 .work-item {
@@ -214,10 +167,6 @@ margin: 72px 24px 0;}
 /*------------------- team studio  ---------------------*/
 
 .team {
-   /* position: absolute;
-    width: 1440px;
-    height: 732px;
-    top: 1548px;*/
 
     background: var(--background-color-cloud);
     color: var(--color-navy-blue);
@@ -233,12 +182,7 @@ margin: 72px 24px 0;}
     margin-top: 120px;
 }
 
-.team-list {
-   /* display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 72px;*/
-}
+.team-list {}
 .team-item {
     margin: 72px 24px 0;
     width: 264px;
@@ -260,64 +204,23 @@ margin: 72px 24px 0;}
     letter-spacing: 0.02em;
 }
 .mark {
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-
-    left: 156px;
-    top: 1780px;
-    height: 380px;*/
 
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 .tom {
-   /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-
-    left: 444px;
-    top: 1780px;
-    height: 380px;*/
 
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 .camila {
-   /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-
-    left: 732px;
-    top: 1780px;
-    height: 380px;*/
-
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 .daniel {
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
-
-    left: 1020px;
-    top: 1780px;
-    height: 380px;*/
 
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -327,15 +230,6 @@ margin: 72px 24px 0;}
 
 /*------------------- filter btn portfolio ---------------------*/
 .filter-btn {
-   /* display: flex;
-    flex-direction: row;
-    gap: 24px;
-
-    position: absolute;
-    width: 586px;
-    height: 48px;
-    left: 427px;
-    top: 168px;*/
 }
 
 .filter-btn > li button:hover, .filter-btn > li button:focus  {
@@ -345,10 +239,6 @@ margin: 72px 24px 0;}
 
 .fil-btn {
 
-    /*display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;*/
 
     background: var(--background-color-cloud);
     border-radius: 4px;
@@ -388,161 +278,99 @@ margin: 72px 24px 0;}
 .project {}
 
 .project-title{
-    font-family: inherit;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--color-navy-blue);
 
 }
 .project-subtitle{
-    font-family: inherit;
     font-size: 20px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-navy-blue);
 }
 
 .project-one {
     box-sizing: border-box;
 
-    /*position: absolute;
-    width: 360px;
-    height: 420px;
-    left: 156px;
-    top: 288px;*/
 
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 
 .project-two {
     box-sizing: border-box;
 
-    /*position: absolute;
-    width: 360px;
-    height: 420px;
-    left: 540px;
-    top: 288px;*/
-
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 
 .project-three {
     box-sizing: border-box;
 
-    position: absolute;
-    width: 360px;
-    height: 420px;
-    left: 924px;
-    top: 288px;
 
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 
 .project-four {
     box-sizing: border-box;
 
-   /* position: absolute;
-    width: 360px;
-    height: 420px;
-    left: 156px;
-    top: 756px;*/
 
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 
 .project-five {
     box-sizing: border-box;
 
-    /*position: absolute;
-    width: 360px;
-    height: 420px;
-    left: 540px;
-    top: 756px;*/
-
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 
 .project-six {
     box-sizing: border-box;
 
-    /*position: absolute;
-    width: 360px;
-    height: 420px;
-    left: 924px;
-    top: 756px;*/
-
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 
 .project-seven {
     box-sizing: border-box;
 
-   /* position: absolute;
-    width: 360px;
-    height: 420px;
-    left: 156px;
-    top: 1224px;*/
 
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 
 .project-eight {
     box-sizing: border-box;
 
-    /*position: absolute;
-    width: 360px;
-    height: 420px;
-    left: 540px;
-    top: 1224px;*/
 
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 
 .project-nine {
     box-sizing: border-box;
 
-    /*position: absolute;
-    width: 360px;
-    height: 420px;
-    left: 924px;
-    top: 1224px;*/
 
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
 }
 
 
 /*------------------- footer ---------------------*/
 .footer {
-   /* position: absolute;
-    width: 1440px;
-    height: 310px;
-    left: 0px;
-    top: 2280px;*/
 
     background: var(--color-navy-blue);
 }
 
 .footer-item {
-    padding: 100px 156px 0px;
 }
 
 .footer-logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.3;
+    color: #F4F4FD;
+
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
 }
 
 .footer-text {
